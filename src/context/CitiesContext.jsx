@@ -1,6 +1,7 @@
 import { createContext, useContext, useEffect, useReducer } from "react";
 
-const BASE_URL = "http://localhost:8000";
+// const BASE_URL = "http://localhost:8000";
+const BASE_URL = "https://api.npoint.io/2378b2779e4dd768bac1";
 
 const initialState = {
   cities: [],
